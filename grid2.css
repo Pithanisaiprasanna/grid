@@ -1,0 +1,181 @@
+.container,
+.container2,
+.container3 {
+  margin-bottom: 30px;
+  
+}
+.outer-box {
+  background-color:white;     /* white box */
+  padding: 30px;              /* Space inside blue box */
+  border-radius: 1px;        /* Optional rounded corners */
+  display: flex;
+  justify-content: center;    /* Center the wrapper */
+  
+}
+.wrapper {
+  display: flex;
+  gap: 20px; /* Space between containers */
+  justify-content: center;  /* Centers all containers horizontally */
+  align-items: center;       /* Centers vertically (optional) */
+}
+
+
+
+.container{
+  border: 3px solid;
+  display:grid;
+  gap:10px;
+  height:50vh; 
+  width: 50vh;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-areas: 
+  "a a b b"
+  "a a b b"
+  "a a c d"
+  "a a e d";
+}  
+.item{
+  
+  padding: 5px ;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.item-1{
+  background-color: lightgray;
+  /* grid-column: 1/2;
+  grid-row: 1/4; */
+  grid-area: a;
+  
+}
+.item-2{
+  background-color: lightgray;
+  /* grid-column: 2/4; */
+  grid-area: b;
+}
+.item-3{
+  background-color: lightgray;
+  grid-area: c;
+}
+.item-4{
+  background-color: lightgray;
+  grid-area: d;
+}
+.item-5{
+background-color: lightgray;
+grid-area: e;
+}
+
+
+.container2{
+  border: 3px solid;
+  display:grid;
+  gap:10px;
+  height:50vh; 
+  width: 50vh;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-areas: 
+  "a a b b c"
+  "a a b b d"
+  "a a e f g"
+  "a a e f g";
+}  
+.item{
+  background-color: blueviolet;
+  padding: 5px ;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.item-1{
+  background-color: lightgray;
+  /* grid-column: 1/2;
+  grid-row: 1/4; */
+  grid-area: a;
+}
+.item-2{
+  background-color: lightgray;
+  /* grid-column: 2/4; */
+  grid-area: b;
+}
+.item-3{
+  background-color: lightgray;
+  grid-area: c;
+}
+.item-4{
+  background-color: lightgray;
+  grid-area: d;
+}
+.item-5{
+background-color: lightgray;
+grid-area: e;
+}
+.item-6{
+background-color: lightgray;
+grid-area: f;
+}
+.item-7{
+background-color: lightgray;
+grid-area: g;
+}
+
+
+.container3{
+  border: 3px solid;
+  display:grid;
+  gap:10px;
+  height:50vh; 
+  width: 50vh;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-areas: 
+  "a b c d"
+  "e e f f"
+  "g h i j";
+}  
+.item{
+  background-color: blueviolet;
+  padding: 5px ;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.item-1{
+  background-color: lightgray;
+  /* grid-column: 1/2;
+  grid-row: 1/4; */
+  grid-area: a;
+}
+.item-2{
+  background-color: lightgray;
+  /* grid-column: 2/4; */
+  grid-area: b;
+}
+.item-3{
+  background-color: lightgray;
+  grid-area: c;
+}
+.item-4{
+  background-color: lightgray;
+  grid-area: d;
+}
+.item-5{
+background-color: lightgray;
+grid-area: e;
+}
+.item-6{
+background-color: lightgray;
+grid-area: f;
+}
+.item-7{
+background-color: lightgray;
+grid-area: g;
+}
+.item-8{
+background-color: lightgray;
+grid-area: h;
+}
+.item-9{
+background-color: lightgray;
+grid-area: i;
+}
+.item-10{
+background-color: lightgray;
+grid-area: j;
+}
